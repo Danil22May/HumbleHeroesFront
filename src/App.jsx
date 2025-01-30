@@ -1,7 +1,7 @@
 import "./App.css";
 import HeroeForm from "./components/HeroeForm";
 import HeroesList from "./components/HeroesList";
-
+// I would add a "Service" for api request and call it if i had more time
 function App() {
   return (
     <>
@@ -15,12 +15,12 @@ function App() {
           d="M0,224L60,240C120,256,240,288,360,277.3C480,267,600,213,720,186.7C840,160,960,160,1080,138.7C1200,117,1320,75,1380,53.3L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
         ></path>
       </svg>
-      <div className="flex justify-center items-center">
+      <div className="flex h-screen justify-center items-center">
         <HeroeForm />
         <HeroesList />
       </div>
       <svg
-        className=" absolute bottom-0"
+        className=" absolute bottom-0 -z-10"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >

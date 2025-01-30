@@ -16,11 +16,13 @@ export default function HeroesList() {
     return <div>Loading...</div>;
   }
   return (
-    <div className=" m-10">
+    <div className="m-10">
       <div className="text-2xl p-2">Heroes: </div>
-      {heroes.map((hero) => {
-        return <HeroeCard key={hero.name} hero={hero} />;
-      })}
+      <div className="grid grid-cols-3">
+        {heroes.map((hero) => {
+          return <HeroeCard key={hero.name} hero={hero} />;
+        })}
+      </div>
     </div>
   );
 }
