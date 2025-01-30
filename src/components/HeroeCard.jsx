@@ -1,9 +1,9 @@
 export default function HeroeCard({ hero }) {
   return (
-    <div className="bg-neutral-100 border m-2 w-64 h-40 flex flex-col gap-4 border-neutral-200 shadow-sm hover:shadow-md rounded p-2">
-      <div className="text-sm">
+    <div className=" backdrop-blur-lg border m-2 w-64 h-40 flex flex-col gap-4 border-neutral-200 shadow-sm hover:shadow-md rounded p-2">
+      <div className="text-sm ">
         Name:{" "}
-        <span className="text-lg text-blue-600 font-bold">{hero.name}</span>{" "}
+        <span className="text-lg text-yellow-800 font-bold">{hero.name}</span>{" "}
       </div>
       <div className="text-sm">
         Humble Score:{" "}
