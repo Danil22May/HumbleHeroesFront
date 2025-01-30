@@ -21,6 +21,6 @@
 
 ## If I had more time
 
-I would separate api calls
-I would maybe worked more on ui
-I would make error handling and better form validation
+I would separate api calls<br>
+I would maybe worked more on ui<br>
+I would make error handling and better form validation<br>
