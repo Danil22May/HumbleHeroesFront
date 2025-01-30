@@ -1,5 +1,7 @@
 # Front end for "Humble Heroes"
 
+![HumbleHeroes](./src/assets/image.png)
+
 ## Installation
 
 1. Clone the repository:
@@ -14,5 +16,5 @@
    ```bash
        npm run dev
    ```
-   and then application will be ready on port 5173
-   Don't forget to run back end application
+   And then application will be ready on port 5173<br>
+   Don't forget to run the back end application
