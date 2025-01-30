@@ -14,7 +14,7 @@
    ```
 3. Run application
    ```bash
-       npm run dev
+   npm run dev
    ```
    And then application will be ready on port 5173<br>
    Don't forget to run the back end application
