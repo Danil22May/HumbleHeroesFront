@@ -18,3 +18,9 @@
    ```
    And then application will be ready on port 5173<br>
    Don't forget to run the back end application
+
+## If I had more time
+
+I would separate api calls
+I would maybe worked more on ui
+I would make error handling and better form validation
